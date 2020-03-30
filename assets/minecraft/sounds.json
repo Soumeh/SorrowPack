@@ -1,0 +1,76 @@
+{
+    "block.note_block.banjo" : {
+	    "subtitles": "Note Block plays",
+	    "sounds":[
+		    "instruments/BLOCK_NOTE_BLOCK_BANJO"
+		]
+	},
+	"block.note_block.bell" : {
+	    "subtitles": "Note Block plays",
+	    "sounds":[
+		    "instruments/BLOCK_NOTE_BLOCK_BELL"
+		]
+	},
+	"block.note_block.bit" : {
+	    "subtitles": "Note Block plays",
+	    "sounds":[
+		    "instruments/BLOCK_NOTE_BLOCK_BIT"
+		]
+	},
+	"block.note_block.cow_bell" : {
+	    "subtitles": "Note Block plays",
+	    "sounds":[
+		    "instruments/BLOCK_NOTE_BLOCK_COWBELL"
+		]
+	},
+	"block.note_block.didgeridoo" : {
+	    "subtitles": "Note Block plays",
+	    "sounds":[
+		    "instruments/BLOCK_NOTE_BLOCK_DIDGERIDOO"
+		]
+	},
+	"block.note_block.ice_chime" : {
+	    "subtitles": "Note Block plays",
+	    "sounds":[
+		    "instruments/BLOCK_NOTE_BLOCK_ICE_CHIME"
+		]
+	},
+	"block.note_block.iron_xylophone" : {
+	    "subtitles": "Note Block plays",
+	    "sounds":[
+		    "instruments/BLOCK_NOTE_BLOCK_IRON_XYLOPHONE"
+		]
+	},
+	"block.note_block.slap_bass" : {
+	    "subtitles": "Note Block plays",
+	    "sounds":[
+		    "instruments/BLOCK_NOTE_BLOCK_SLAP_BASS"
+		]
+	},
+	"block.note_block.cymbal_hi-hat" : {
+	    "subtitles": "Note Block plays",
+	    "sounds":[
+		    "instruments/BLOCK_NOTE_BLOCK_CYMBAL_HI-HAT"
+		]
+	},
+	"block.note_block.cymbal_splash" : {
+	    "subtitles": "Note Block plays",
+	    "sounds":[
+		    "instruments/BLOCK_NOTE_BLOCK_CYMBAL_SPLASH"
+		]
+	},
+	"entity.player.eat" : {
+	    "subtitles": "Eating",
+	    "sounds":[
+		    "misc/eat1",
+			"misc/eat2",
+			"misc/eat3"
+		]
+	},
+	"entity.player.drink" : {
+	    "subtitles": "Sipping",
+	    "sounds":[
+		    "misc/drink"
+		]
+	}
+}
