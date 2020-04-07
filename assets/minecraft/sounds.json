@@ -59,6 +59,12 @@
 		    "instruments/BLOCK_NOTE_BLOCK_CYMBAL_SPLASH"
 		]
 	},
+	"item.war_horn" : {
+	    "subtitles": "War Horn blown",
+	    "sounds":[
+		    "item/war_horn"
+		]
+	},	
 	"entity.player.eat" : {
 	    "subtitles": "Eating",
 	    "sounds":[
