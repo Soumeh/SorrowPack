@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "items/hellgate",
-		"particle": "items/hellgate"
+		"0": "item/hellgate",
+		"particle": "item/hellgate"
 	},
 	"elements": [
 		{
