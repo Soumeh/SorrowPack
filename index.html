@@ -6,7 +6,7 @@ xmlhttp.onreadystatechange = function() {
     if (xmlhttp.readyState == 4) {
         if(xmlhttp.status == 200) {
             var obj = JSON.parse(xmlhttp.responseText);
-            var download = obj.assets[0].browser_download_url;
+            var download = "https://github.com/Soumeh/SorrowPack/archive/" + obj.tag_name + ".zip";
 			window.location.href = download;
          }
     }
