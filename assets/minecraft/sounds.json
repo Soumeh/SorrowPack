@@ -65,6 +65,12 @@
       "item/war_horn"
     ]
   },
+  "ice_rod.use": {
+    "subtitles": "Ice Rod used",
+	"sounds": [
+	  "item/ice_rod.use"
+	]
+  },
   "item.keystone.use": {
     "subtitles": "Keystone activated",
     "sounds": [
