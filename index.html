@@ -7,12 +7,12 @@ xmlhttp.onreadystatechange = function() {
         if(xmlhttp.status == 200) {
             var obj = JSON.parse(xmlhttp.responseText);
             var download = "https://github.com/Soumeh/SorrowPack/archive/" + obj.tag_name + ".zip";
-			window.location.href = download;
+			window.location = download;
 			document.getElementById("downloadLink").innerHTML = download;
          }
     }
 };
 xmlhttp.send(null);
 </script>
-<p id="downloadLink"></p>
+  <p>Download the latest release of SorrowPack <a href="https://Soumeh.github.io/SorrowPack">here</a>.</p>
 </html>
