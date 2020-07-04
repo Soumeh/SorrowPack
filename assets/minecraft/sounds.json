@@ -1,4 +1,10 @@
 {
+  "bonk": {
+    "subtitles": "Bonk",
+    "sounds": [
+      "misc/bonk"
+    ]
+  },
   "block.note_block.banjo": {
     "subtitles": "Instrument played",
     "sounds": [
