@@ -8,61 +8,115 @@
   "block.note_block.banjo": {
     "subtitles": "Instrument played",
     "sounds": [
-      "instruments/BLOCK_NOTE_BLOCK_BANJO"
+      "instruments/banjo"
     ]
   },
   "block.note_block.bell": {
     "subtitles": "Instrument played",
     "sounds": [
-      "instruments/BLOCK_NOTE_BLOCK_BELL"
+      "instruments/bell"
     ]
   },
   "block.note_block.bit": {
     "subtitles": "Instrument played",
     "sounds": [
-      "instruments/BLOCK_NOTE_BLOCK_BIT"
+      "instruments/bit"
     ]
   },
   "block.note_block.cow_bell": {
     "subtitles": "Instrument played",
     "sounds": [
-      "instruments/BLOCK_NOTE_BLOCK_COWBELL"
+      "instruments/cowbell"
     ]
   },
   "block.note_block.didgeridoo": {
     "subtitles": "Instrument played",
     "sounds": [
-      "instruments/BLOCK_NOTE_BLOCK_DIDGERIDOO"
+      "instruments/didgeridoo"
     ]
   },
   "block.note_block.ice_chime": {
     "subtitles": "Instrument played",
     "sounds": [
-      "instruments/BLOCK_NOTE_BLOCK_ICE_CHIME"
+      "instruments/ice_chime"
     ]
   },
   "block.note_block.iron_xylophone": {
     "subtitles": "Instrument played",
     "sounds": [
-      "instruments/BLOCK_NOTE_BLOCK_IRON_XYLOPHONE"
+      "instruments/iron_xylophone"
     ]
   },
   "block.note_block.slap_bass": {
     "subtitles": "Instrument played",
     "sounds": [
-      "instruments/BLOCK_NOTE_BLOCK_SLAP_BASS"
+      "instruments/slap_bass"
     ]
   },
   "block.note_block.cymbal_hi-hat": {
     "subtitles": "Instrument played",
     "sounds": [
-      "instruments/BLOCK_NOTE_BLOCK_CYMBAL_HI-HAT"
+      "instruments/cymbal_hi-hat"
     ]
   },
   "block.note_block.cymbal_splash": {
     "subtitles": "Instrument played",
     "sounds": [
-      "instruments/BLOCK_NOTE_BLOCK_CYMBAL_SPLASH"
+      "instruments/cymbal_splash"
+    ]
+  },
+  "block.note_block.timpani": {
+    "subtitles": "Instrument played",
+    "sounds": [
+      "instruments/timpani"
+    ]
+  },
+  "block.note_block.harpsichord": {
+    "subtitles": "Instrument played",
+    "sounds": [
+      "instruments/harpsichord"
+    ]
+  },
+  "block.note_block.vibraphone": {
+    "subtitles": "Instrument played",
+    "sounds": [
+      "instruments/vibraphone"
+    ]
+  },
+  "block.note_block.piano": {
+    "subtitles": "Instrument played",
+    "sounds": [
+      "instruments/piano"
+    ]
+  },
+  "block.note_block.marimba": {
+    "subtitles": "Instrument played",
+    "sounds": [
+      "instruments/marimba"
+    ]
+  },
+  "block.note_block.celesta": {
+    "subtitles": "Instrument played",
+    "sounds": [
+      "instruments/celesta"
+    ]
+  },
+  "block.note_block.sitar": {
+    "subtitles": "Instrument played",
+    "sounds": [
+      "instruments/sitar"
+    ]
+  },
+  "block.note_block.music_box": {
+    "subtitles": "Instrument played",
+    "sounds": [
+      "instruments/music_box"
+    ]
+  },
+  "block.note_block.glockenspiel": {
+    "subtitles": "Instrument played",
+    "sounds": [
+      "instruments/glockenspiel"
     ]
   },
   "item.war_horn": {
