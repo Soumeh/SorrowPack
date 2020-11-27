@@ -20,4 +20,4 @@ jobs:
           push-branch: 'master'
           commit-message: 'publish'
           force-add: 'true'
-          files: .github/workflows/builds/SorrowPack.zip      - name:
+          files: .github/workflows/builds/SorrowPack.zip          name: Build Resource Pack
