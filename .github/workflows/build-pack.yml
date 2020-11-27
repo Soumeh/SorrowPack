@@ -4,20 +4,20 @@ jobs:
   check-bats-version:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout repo content
+      - name: Checkout Repo Content
         uses: actions/checkout@v2
-      - name: setup python
+      - name: Setup Python
         uses: actions/setup-python@v2
         with:
           python-version: 3.8
-      - name: execute py script
+      - name: Create .zip And .json
         run: |
-          python .github/workflows/zipme.py; python .github/workflows/generateSha1.py      - name: Publish
+          python .github/workflows/zipme.py; python .github/workflows/generateSha1.py      - name: Publish .zip And .json
         uses: github-actions-x/commit@v2.3
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           push-branch: 'master'
-          commit-message: 'publish'
+          commit-message: 'Generate Resource Pack Files'
           force-add: 'true'
           files: build
           name: Publish Action
