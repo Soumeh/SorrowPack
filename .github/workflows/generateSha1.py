@@ -1,5 +1,4 @@
-import os, hashlib, jsonBLOCKSIZE = 65536os.chdir('..')
-os.chdir('..')def getSha1(item):    hasher = hashlib.sha1()    with open(item, 'rb') as thisFile:        buf = thisFile.read(BLOCKSIZE)        while len(buf) > 0:            hasher.update(buf)            buf = thisFile.read(BLOCKSIZE)    return hasher.hexdigest()def makeJson(Sha1):    os.chdir('build')
+import os, hashlib, jsonBLOCKSIZE = 65536def getSha1(item):    hasher = hashlib.sha1()    with open(item, 'rb') as thisFile:        buf = thisFile.read(BLOCKSIZE)        while len(buf) > 0:            hasher.update(buf)            buf = thisFile.read(BLOCKSIZE)    return hasher.hexdigest()def makeJson(Sha1):    os.chdir('build')
     if 'Sha1.json' in os.listdir():
         index = 0
         while 'Sha1_{}.json'.format(index) in os.listdir():
