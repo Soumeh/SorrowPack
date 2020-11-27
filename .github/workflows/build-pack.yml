@@ -12,4 +12,12 @@ jobs:
           python-version: 3.8
       - name: execute py script
         run: |
-          python .github/workflows/zipme.py; python .github/workflows/generateSha1.py
+          python .github/workflows/zipme.py; python .github/workflows/generateSha1.py      - name: Publish
+        uses: github-actions-x/commit@v2.3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          push-branch: 'master'
+          commit-message: 'publish'
+          force-add: 'true'
+          files: build
+          name: Publish Action
