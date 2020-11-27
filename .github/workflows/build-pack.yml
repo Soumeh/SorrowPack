@@ -12,4 +12,4 @@ jobs:
           python-version: 3.8
       - name: execute py script
         run: |
-          python .github/workflows/zipme.py; python .github/workflows/generateSha1.py
+          python .github/workflows/zipme.py; python .github/workflows/generateSha1.py
