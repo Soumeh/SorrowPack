@@ -4,7 +4,7 @@ jobs:
   check-bats-version:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repo Content
+      - name: Checkout Repo
         uses: actions/checkout@v2
       - name: Setup Python
         uses: actions/setup-python@v2
