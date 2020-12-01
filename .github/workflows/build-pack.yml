@@ -12,7 +12,8 @@ jobs:
           python-version: 3.8
       - name: Create .zip And .json
         run: |
-          python .github/workflows/zipme.py; python .github/workflows/generateSha1.py      - name: Publish .zip And .json
+          python .github/workflows/generatePack.py; python .github/workflows/generateSha1.py
+      - name: Publish .zip And .json
         uses: github-actions-x/commit@v2.3
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}

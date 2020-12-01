@@ -1,0 +1,7 @@
+{
+    "parent": "block/template_trapdoor_open",
+    "textures": {
+        "top" : "block/jungle_trapdoor",
+        "side": "block/jungle_trapdoor_side"
+    }
+}

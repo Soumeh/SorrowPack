@@ -1,0 +1,7 @@
+{
+    "parent": "block/template_trapdoor_top",
+    "textures": {
+        "top" : "block/birch_trapdoor",
+        "side": "block/birch_trapdoor_side"
+    }
+}
